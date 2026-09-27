@@ -1,2 +1,65 @@
+
+# Fichiers compilés Python
+
+pycache/
+*.py[cod]
+*$py.class
+
+# Environnements virtuels
+
+.venv/
 venv/
-data/
+env/
+ENV/
+
+# Distribution / packaging
+
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Tests / couverture
+
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Type checking
+
+.mypy_cache/
+.pyre/
+.pytype/
+
+# Jupyter Notebook
+
+.ipynb_checkpoints/
+
+# Variables d'environnement / secrets
+
+.env
+.env.*
+!.env.example
+
+
+.vscode/
+*.code-workspace
+
+# Windows
+
+Thumbs.db
+desktop.ini
+
+
+*.log
+
+# Bases de données locales
+
+*.sqlite
+*.sqlite3
+*.db
+
+/data
